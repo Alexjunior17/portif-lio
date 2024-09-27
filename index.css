@@ -1,12 +1,14 @@
 body{
-background-image: url(planodeffundo.png);
-background-repeat: no-repeat;
-background-size: cover;
+background-image: linear-gradient(to right,#0E1D31 , #294D83);
+
+
 height: 100vh;
+width: 100%;
 }
 #inicial{
     height: 120vh;
 }
+
 #ola{
     font-family: 'Jersey 25';
     display: flex;
@@ -72,4 +74,69 @@ height: 100vh;
     color: white;
     font-family: 'Jersey 25';
     font-size: 24px;
+}
+#projetos1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7%;
+    
+}
+#paigrid{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 60px;
+}
+#filho1{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+}
+#filho2{
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+}
+#titlehabilidades{
+    display: flex;
+    justify-content: center;
+    font-family:'Jersey 25';
+    font-size: 96px;
+    color: white;
+    margin-bottom: 10%;
+}
+#espacoparamaisprojetos{
+    width: 100%;
+    height: 100vh;
+}
+#divpaihab{
+    width: 100%;
+    display: flex;
+     flex-direction: row;
+     justify-content:  space-evenly;
+    flex-wrap: wrap;
+     gap: 4%;
+}
+#divpaihab div{
+    border: black solid 3px;
+    border-radius: 60px;
+    width: 350px;
+    height: 450px;
+    
+}
+#mysql { margin-left: -15%;
+margin-top: 3%;}
+#c{
+margin-top: 3%;
+}
+#html{
+    display: flex;
+    justify-content: center;
+}
+#html img{
+    width: 60px;
+    height: 62px;
+    margin-top: 10%;
+
 }
